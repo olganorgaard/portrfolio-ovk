@@ -1,10 +1,12 @@
-<h1>My Portfolio</h1>
+<h1>🌟 Personal Portfolio</h1>
 
 
 <p>My name is Olga and I am web developer. I specialize in creating user-friendly, modern websites that are fully responsive and optimized for mobile devices.</p>
-<p>I am using following technologies in my projects: HTML5, CSS3, JavaScript, JSON API, AJAX, Bootstrap 5, Figma, GSAP and React.</p>
+<br><h2> 🚀 Live Demo </h2>
+<p>Check it out live here: <a href="https://portfolio-dev-ovk.glitch.me/">https://portfolio-dev-ovk.glitch.me/</a> </p>
 
-<h2>My projects</h2>
+<br><h2> 📸 My Projects</h2>
+<p>Welcome to my personal portfolio! Those projects showcases my work, skills, and projects I've built. It serves as both a professional portfolio and a sandbox for experimenting with web development technologies.</p>
 
 | Project name | Description | Preview |
 | :---         |     :---:      |          ---: |
@@ -17,15 +19,31 @@
 | Book a trip app   | <b>Description:</b> Select travel destination and we will calculate the price for all your family. <br> <b>Technologies used:</b>  HTML/CSS/JS/GSAP. <br> View demo <a href="https://book-europe-trip.glitch.me/">here</a> <br> GitHub link <a href="https://weather-forecast-count.glitch.me/">here</a> | <img alt="Image" title="icon" src="https://github.com/user-attachments/assets/a793deab-884e-4095-b735-3dc13da3ba71" width="350px"/>    |
 | Breastmilk Jewerly app   | <b>Description:</b>Best way for mothers to commemorate their breastfeeding journey in the jewelry <br> <b>Technologies used:</b>  HTML/CSS/GSAP. <br> View demo <a href="https://luminous-banoffee-844891.netlify.app/">here</a> <br> GitHub link <a href="https://weather-forecast-count.glitch.me/">here</a> | <img alt="Image" title="icon" src="https://github.com/user-attachments/assets/347927fb-d60c-49e8-a920-3e73c10aa488" width="350px"/>    |
 
-  <li>Breastmilk Jewerly app
-    <ul>
-      <li>Description: Select travel destination and we will calculate the price for all your family</li>
-      <li>Technologies used:  HTML/CSS/GSAP</li>
-       <li>View demo <a href="Best way for mothers to commemorate their breastfeeding journey in the jewelry">here</a> </li>
-      <li>GitHub link <a href="https://weather-forecast-count.glitch.me/">here</a> </li>
-    </ul>
-    <img alt="Image" title="icon" src="https://github.com/user-attachments/assets/347927fb-d60c-49e8-a920-3e73c10aa488" width="350px"/>
-  </li>
+<br><h2> 📌 Setup Instructions </h2>
 
-  
-</ol>
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/olganorgaard/portrfolio-ovk.git
+2. Navigate to the project folder:
+   ```bash
+   cd portfolio-ovk
+3. Open <b><i>index.html</i></b> in your browser or serve with a local dev server.
+
+<br><h2> 🛠 Tech Stack </h2>
+<ul>
+  <li>HTML5 / CSS</li>
+  <li>JavaScript (ES6+)</li>
+  <li>Bootstrap</li>
+  <li>GSAP</li>
+  <li>Git & GitHub Pages</li>
+  <li>Figma</li>
+  <li>React</li>
+</ul>
+
+<br><h2> 📬 Contact </h2>
+<p>Feel free to reach out if you want to collaborate, have questions, or just want to connect! </p><br>
+<ul>
+  <li>LinkedIn: <a href="https://www.linkedin.com/in/olga-kozlova-25464892/">https://www.linkedin.com/in/olga-kozlova-25464892/</a></li>
+  <li>Email: <a href="mailto:norgaardov@gmail.com">norgaardov@gmail.com</a></li>
+  <li>Instagram: <a href="https://www.instagram.com/kozlova_olgav/">Olga</a> </li>
+</ul>
