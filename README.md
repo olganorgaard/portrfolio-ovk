@@ -3,7 +3,7 @@
 
 <p>My name is Olga and I am web developer. I specialize in creating user-friendly, modern websites that are fully responsive and optimized for mobile devices.</p>
 <br><h2> 🚀 Live Demo </h2>
-<p>Check it out live here: <a href="https://portfolio-dev-ovk.glitch.me/">https://portfolio-dev-ovk.glitch.me/</a> </p>
+<p>Check it out live here: <a href="https://portfolio-dev-ovk.netlify.app/">https://portfolio-dev-ovk.netlify.app/</a> </p>
 
 <br><h2> 📸 My Projects</h2>
 <p>Welcome to my personal portfolio! Those projects showcases my work, skills, and projects I've built. It serves as both a professional portfolio and a sandbox for experimenting with web development technologies.</p>
