@@ -4,7 +4,8 @@
       <meta charset="UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>OK | web- developer</title>
+      <meta name="description" content="Portfolio of Olga Kozlova, a Frontend Web Developer specializing in responsive design, HTML/CSS/JS, and modern frameworks.">
+      <title>Olga Kozlova | Frontend Web Developer Portfolio</title>
       <link rel="stylesheet" href="style.css" />
    </head>
    <body class="notranslate">
@@ -73,36 +74,44 @@
                   <div class="skills">
                      <div class="skills__row">
                         <div class="skills__item skills__item--html">
-                           <img src="https://cdn.glitch.global/7985fc47-af96-4e4d-8ef2-06a2f3e4febe/htmlImg.png?v=1737404770038" alt=""/>
+                           <img src="icons/htmlImg.webp" alt="skills_img_html"/>
                            <div class="skills__item-name">HTML</div>
                         </div>
                         <div class="skills__item skills__item--react">
-                           <img src="https://cdn.glitch.global/7985fc47-af96-4e4d-8ef2-06a2f3e4febe/reactImg.png?v=1737404786997" alt=""/>
+                           <img src="icons/reactImg.webp" alt="skills_img_react"/>
                            <div class="skills__item-name">REACT</div>
+                        </div>
+                        <div class="skills__item skills__item--redux">
+                           <img src="icons/redux.webp" alt="skills_img_redux"/>
+                           <div class="skills__item-name">REDUX</div>
                         </div>
                      </div>
                      <div class="skills__row">
                         <div class="skills__item skills__item--js">
-                           <img src="https://cdn.glitch.global/7985fc47-af96-4e4d-8ef2-06a2f3e4febe/jsImg.png?v=1737404808666" alt=""/>
+                           <img src="icons/jsImg.webp" alt="skills_img_js"/>
                            <div class="skills__item-name">JAVASCRIPT</div>
                         </div>
                         <div class="skills__item skills__item--css">
-                           <img src="https://cdn.glitch.global/7985fc47-af96-4e4d-8ef2-06a2f3e4febe/cssImg.png?v=1737404692363" alt=""/>
+                           <img src="icons/cssImg.webp" alt="skills_img_css"/>
                            <div class="skills__item-name">CSS</div>
                         </div>
                         <div class="skills__item skills__item--python">
-                           <img src="https://cdn.glitch.global/7985fc47-af96-4e4d-8ef2-06a2f3e4febe/bootstrapImg.png?v=1737404633266" alt=""/>
+                           <img src="icons/bootstrapImg.webp" alt="skills_img_bootstrap5"/>
                            <div class="skills__item-name">Bootstrap5</div>
                         </div>
                      </div>
                      <div class="skills__row">
                         <div class="skills__item skills__item--sass">
-                           <img src="https://cdn.glitch.global/7985fc47-af96-4e4d-8ef2-06a2f3e4febe/figmaImg.png?v=1737404728499" alt=""/>
+                           <img src="icons/figmaImg.webp" alt="skills_img_figma"/>
                            <div class="skills__item-name">Figma</div>
                         </div>
                         <div class="skills__item skills__item--webpack">
-                           <img src="https://cdn.glitch.global/7985fc47-af96-4e4d-8ef2-06a2f3e4febe/gsapImg.png?v=1737404747574" alt=""/>
+                           <img src="icons/gsapImg.webp" alt="skills_img_gsap"/>
                            <div class="skills__item-name">GSAP</div>
+                        </div>
+                        <div class="skills__item skills__item--webpack">
+                           <img src="icons/nodejs.512x512.webp" alt="skills_img_nodejs"/>
+                           <div class="skills__item-name">NODE.js</div>
                         </div>
                      </div>
                   </div>
@@ -111,77 +120,97 @@
             <!--Projects section-->
             <section class="projects" id="projects">
                <h2 class="projects__heading section-heading">Projects</h2>
+
                <div class="project project-left">
-                  <a href="https://weather-forecast-count.glitch.me/" target="_blank">
+                  <a href="" target="_blank">
+                     <div class="project__image-container nutrition">
+                        <div class="project__image-image"><img src="img/nutrition/nutrition.webp" alt="Nutrition analysis project"/></div>
+                     </div>
+                  </a>
+                  <div class="project__info">
+                     <h3 class="project__title nutrition-title">Nutrition analisys<br></h3>
+                     <p class="project__description nutrition-desc">A simple React app that analyzes the nutritional content of food ingredients using the Edamam Nutrition Analysis API. React/API/CSS</p>
+                      <a href="https://nutrution-analysiss.netlify.app/" target="_blank">
+                        <div class="project__live-2 nutrition-btn">View demo</div>
+                     </a> 
+                     <a href="https://github.com/olganorgaard/nutrition-app" target="_blank">
+                        <div class="project__live-2 nutrition-btn">View code</div>
+                     </a>
+                  </div>
+               </div>
+
+               <div class="project project-right">
+                  <div class="project__info">
+                     <h3 class="project__title quote-title">Quote of the day</h3>
+                     <p class="project__description quote-desc">Start your day with a new inspiring quote. HTML/CSS/JS/GSAP</p>
+                     <a href="https://quotes-women.netlify.app" target="_blank">
+                        <div class="project__live-2 quote-btn">View demo</div>
+                     </a>
+                      <a href="https://github.com/olganorgaard/quote-of-the-day" target="_blank">
+                        <div class="project__live-2 quote-btn">View code</div>
+                     </a>
+                  </div>
+                     <a href="https://quotes-women.netlify.app" target="_blank">
+                        <div class="project__image-container todo quote">
+                           <div class="project__image-image">
+                           <img loading="lazy" src="img/quote/mockuper2.webp" alt="Quote project">
+                        </div>
+                     </div>
+                  </a>
+               </div>
+
+               <div class="project project-left">
+                  <a href="https://weather-forecast-cit.netlify.app/" target="_blank">
                      <div class="project__image-container weather">
                         <div class="project__image-image">
-                           <img src="https://cdn.glitch.global/7985fc47-af96-4e4d-8ef2-06a2f3e4febe/mockuper3.png?v=1737010025911" alt="">
+                           <img loading="lazy" src="img/weather/mockuper3.webp" alt="Weather project">
                         </div>
                      </div>
                   </a>
                   <div class="project__info">
                      <h3 class="project__title weather-title">Weather Forecast<br></h3>
                      <p class="project__description weather-desc">Real-time weather forecast. HTML/CSS/JS/API/GSAP</p>
-                     <a href="https://weather-forecast-count.glitch.me/" target="_blank">
+                     <a href="https://weather-forecast-cit.netlify.app/" target="_blank">
                         <div class="project__live-2 weather-btn">View demo</div>
                      </a>
-                  </div>
-               </div>
-               <div class="project project-right">
-                  <div class="project__info">
-                     <h3 class="project__title quote-title">Quote of the day</h3>
-                     <p class="project__description quote-desc">Start your day with a new inspiring quote. HTML/CSS/JS/GSAP</p>
-                     <a href="https://quotes-women-one.glitch.me" target="_blank">
-                        <div class="project__live-2 quote-btn">View demo</div>
-                     </a>
-                  </div>
-                     <a href="https://quotes-women-one.glitch.me" target="_blank">
-                        <div class="project__image-container todo quote">
-                           <div class="project__image-image">
-                           <img src="https://cdn.glitch.global/7985fc47-af96-4e4d-8ef2-06a2f3e4febe/mockuper2.png?v=1737010032110" alt="">
-                        </div>
-                     </div>
-                  </a>
-               </div>
-               <div class="project project-left">
-                  <a href="https://count-down-santa.glitch.me/" target="_blank">
-                     <div class="project__image-container weather">
-                        <div class="project__image-image"><img src="https://cdn.glitch.global/7985fc47-af96-4e4d-8ef2-06a2f3e4febe/mockuper.png?v=1737009993480" alt=""/></div>
-                     </div>
-                  </a>
-                  <div class="project__info">
-                     <h3 class="project__title christmas-title">Christmas app<br></h3>
-                     <p class="project__description christmas-desc">Online counting days/hr/min/sec until Christmas. HTML/CSS/JS/API/GSAP</p>
-                     <a href="https://count-down-santa.glitch.me/" target="_blank">
-                        <div class="project__live-2 christmas-btn">View demo</div>
+                     <a href="https://github.com/olganorgaard/Weather-Forecast" target="_blank">
+                        <div class="project__live-2 weather-btn">View code</div>
                      </a>
                   </div>
                </div>
+
                <div class="project project-right">
                   <div class="project__info">
                      <h3 class="project__title bill-title">Split the Bill app</h3>
                      <p class="project__description bill-desc">Simple way to split a bill amongst friends. HTML/CSS/JS/GSAP</p>
-                     <a href="https://billsplit-app.glitch.me" target="_blank">
+                     <a href="https://app-bill-split.netlify.app" target="_blank">
                         <div class="project__live-2 bill-btn">View demo</div>
                      </a>
+                     <a href="https://github.com/olganorgaard/split-bill" target="_blank">
+                        <div class="project__live-2 bill-btn">View code</div>
+                     </a>
                   </div>
-                  <a href="https://billsplit-app.glitch.me" target="_blank">
+                  <a href="https://app-bill-split.netlify.app" target="_blank">
                      <div class="project__image-container bill todo">
-                        <div class="project__image-image"><img src="https://cdn.glitch.global/7985fc47-af96-4e4d-8ef2-06a2f3e4febe/mockuper4.png?v=1737011682365" alt=""/></div>
+                        <div class="project__image-image"><img loading="lazy" src="img/bill/mockuper4.webp" alt="Bill project"/></div>
                      </div>
                   </a>
                </div>
+
                <div class="project project-left">
-                  <a href="https://restaurant-freshiy-app.glitch.me" target="_blank">
-                     <div class="project__image-container weather">
-                        <div class="project__image-image"><img src="https://cdn.glitch.global/7985fc47-af96-4e4d-8ef2-06a2f3e4febe/mockuper5.png?v=1737014149359" alt=""/></div>
+                  <a href="https://freshiy-restaurant.netlify.app/" target="_blank">
+                     <div class="project__image-container restaurant">
+                        <div class="project__image-image"><img loading="lazy" src="img/restorant/mockuper5.webp" alt="Restaurant project"/></div>
                      </div>
                   </a>
                   <div class="project__info">
                      <h3 class="project__title restaurant-title">Restaurant app<br></h3>
-                     <p class="project__description restaurant-desc">HTML/CSS/JS/Bootstrap</p>
-                     <a href="https://restaurant-freshiy-app.glitch.me" target="_blank">
+                     <p class="project__description restaurant-desc">A user-friendly restaurant app that lets customers browse menus, place orders and make reservations. HTML/CSS/JS/Bootstrap</p>
+                     <a href="https://freshiy-restaurant.netlify.app/" target="_blank">
                         <div class="project__live-2 restaurant-btn">View demo</div>
+                     </a>
+                     <a href="https://github.com/olganorgaard/restaurant-app" target="_blank">
+                        <div class="project__live-2 restaurant-btn">View code</div>
                      </a>
                   </div>
                </div>
@@ -189,27 +218,33 @@
                   <div class="project__info">
                      <h3 class="project__title workout-title">Workout timer app</h3>
                      <p class="project__description workout-desc">Start your training with 5mins timer. HTML/CSS/JS/GSAP</p>
-                     <a href="https://workout-timer-play.glitch.me" target="_blank">
+                     <a href="https://workout-timer-play.netlify.app/" target="_blank">
                         <div class="project__live-2 workout-btn">View demo</div>
                      </a>
+                     <a href="https://github.com/olganorgaard/workout-timer" target="_blank">
+                        <div class="project__live-2 workout-btn">View code</div>
+                     </a>
                   </div>
-                  <a href="https://workout-timer-play.glitch.me" target="_blank">
+                  <a href="https://workout-timer-play.netlify.app/" target="_blank">
                      <div class="project__image-container workout todo">
-                        <div class="project__image-image"><img src="https://cdn.glitch.global/7985fc47-af96-4e4d-8ef2-06a2f3e4febe/mockuper6.png?v=1737066424455" alt=""/></div>
+                        <div class="project__image-image"><img loading="lazy" src="img/workout/mockuper6.webp" alt="Timer project"/></div>
                      </div>
                   </a>
                </div>
                <div class="project project-left">
-                  <a href="https://book-europe-trip.glitch.me" target="_blank">
-                     <div class="project__image-container weather">
-                        <div class="project__image-image"><img src="https://cdn.glitch.global/7985fc47-af96-4e4d-8ef2-06a2f3e4febe/mockuper7.png?v=1737067218550" alt=""/></div>
+                  <a href="https://book-europe-trip.netlify.app" target="_blank">
+                     <div class="project__image-container trip">
+                        <div class="project__image-image"><img loading="lazy" src="img/bookTrip/mockuper7.webp" alt="Book a trip project"/></div>
                      </div>
                   </a>
                   <div class="project__info">
                      <h3 class="project__title trip-title">Book a trip app<br></h3>
-                     <p class="project__description trip-desc">Check travel destinations and we will calculate the price for all your family. HTML/CSS/JS/GSAP</p>
-                     <a href="https://book-europe-trip.glitch.me" target="_blank">
+                     <p class="project__description trip-desc">Select travel destination and we will calculate the price for all your family. HTML/CSS/JS/GSAP</p>
+                     <a href="https://book-europe-trip.netlify.app/" target="_blank">
                         <div class="project__live-2 trip-btn">View demo</div>
+                     </a>
+                      <a href="https://github.com/olganorgaard/book-trip" target="_blank">
+                        <div class="project__live-2 trip-btn">View code</div>
                      </a>
                   </div>
                </div>
@@ -220,13 +255,34 @@
                      <a href="https://luminous-banoffee-844891.netlify.app" target="_blank">
                         <div class="project__live-2 jewerly-btn">View demo</div>
                      </a>
+                      <a href="https://github.com/olganorgaard/breastmilk-jewerly-app" target="_blank">
+                        <div class="project__live-2 jewerly-btn">View code</div>
+                     </a>
                   </div>
                   <a href="https://luminous-banoffee-844891.netlify.app/" target="_blank">
                      <div class="project__image-container jewerly todo">
-                        <div class="project__image-image"><img src="https://cdn.glitch.global/7985fc47-af96-4e4d-8ef2-06a2f3e4febe/mockuper9.png?v=1737185598276" alt="Jewerly"/></div>
+                        <div class="project__image-image"><img src="img/jewerly/mockuper9.webp" alt="Jewerly project"/></div>
                      </div>
                   </a>
                </div>
+               <div class="project project-left">
+                  <a href="https://christmass-count-down.netlify.app/" target="_blank">
+                     <div class="project__image-container christmas">
+                        <div class="project__image-image"><img loading="lazy" src="img/santa/mockuper.webp" alt="Christmas project"/></div>
+                     </div>
+                  </a>
+                  <div class="project__info">
+                     <h3 class="project__title christmas-title">Christmas app<br></h3>
+                     <p class="project__description christmas-desc">Online counting days/hr/min/sec until Christmas. HTML/CSS/JS/GSAP</p>
+                     <a href="https://christmass-count-down.netlify.app/" target="_blank">
+                        <div class="project__live-2 christmas-btn">View demo</div>
+                     </a>
+                      <a href="https://github.com/olganorgaard/count-down-to-christmas" target="_blank">
+                        <div class="project__live-2 christmas-btn">View code</div>
+                     </a>
+                  </div>
+               </div>
+               
             </section>
             <section class="message" id="contact">
                <div class="contact">
@@ -234,7 +290,7 @@
                </div>
                <div class="row">
                   <div class="image" id="contact-image">
-                     <img src="https://cdn.glitch.global/7985fc47-af96-4e4d-8ef2-06a2f3e4febe/contactImage.jpg?v=1737178220900" alt="Contact us image">
+                     <img src="img/contactImage.webp" alt="Contact us image">
                   </div>
                   <form action="https://formspree.io/f/mwpkkkqz" method="POST" id="contact-form">
                      <input type="text" placeholder="Your Name" class="box" name="name">
@@ -261,10 +317,10 @@
             </div>
             <div class="socials">
                <a href="" target="_blank">
-                  <div class="socials__github"><img src="https://cdn.glitch.global/7985fc47-af96-4e4d-8ef2-06a2f3e4febe/social_linkedin.png?v=1737179223026" alt=""/></div>
+                  <div class="socials__github"><img src="icons/social_linkedin.webp" alt="Github image"/></div>
                </a>
                <a href="mailto:kozlova.olga10011987@gmail.com" target="_blank">
-                  <div class="socials__email"><img src="https://cdn.glitch.global/7985fc47-af96-4e4d-8ef2-06a2f3e4febe/social_email.png?v=1737178493313" alt=""/></div>
+                  <div class="socials__email"><img src="icons/social_email.webp" alt="Email image"/></div>
                </a>
             </div>
             <p class="copyright">created by Olga Kozlova 2025 all rights reserved.</p>

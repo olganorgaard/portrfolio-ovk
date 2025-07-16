@@ -242,6 +242,16 @@ gsap.from('.jewerly-desc', {
 gsap.from('.jewerly-btn', {
   scrollTrigger: '.jewerly-btn', 
   x:-100, duration: 2, opacity: 0, delay: 1.4}); 
+
+gsap.from('.nutrition-title', {
+  scrollTrigger: '.nutrition-title', 
+  x:-100, duration: 2, opacity: 0, delay: 1});
+gsap.from('.nutrition-desc', {
+  scrollTrigger: '.nutrition-desc', 
+  x:-100, duration: 2, opacity: 0, delay: 1.2});
+gsap.from('.nutrition-btn', {
+  scrollTrigger: '.nutrition-btn', 
+  x:-100, duration: 2, opacity: 0, delay: 1.4}); 
 //
 /*Contact header*/
 gsap.from('.contact__heading', {
