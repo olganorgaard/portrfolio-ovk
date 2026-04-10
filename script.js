@@ -131,62 +131,6 @@ gsap.from('.projects__heading', {
   y:-100, duration: 2, opacity: 0, delay: 0.7});
 
 /*Projects*/
-gsap.from('.weather', {
-  scrollTrigger: '.weather', 
-  x:-100, duration: 2, opacity: 0, delay: 0.9});
-
-gsap.from('.weather-title', {
-  scrollTrigger: '.weather-title', 
-  x:100, duration: 2, opacity: 0, delay: 1});
-gsap.from('.weather-desc', {
-  scrollTrigger: '.weather-desc', 
-  x:100, duration: 2, opacity: 0, delay: 1.2});
-gsap.from('.weather-btn', {
-  scrollTrigger: '.weather-btn', 
-  x:100, duration: 2, opacity: 0, delay: 1.4});
-//
-gsap.from('.quote', {
-  scrollTrigger: '.quote', 
-  x:100, duration: 2, opacity: 0, delay: 0.9});
-  
-gsap.from('.quote-title', {
-  scrollTrigger: '.quote-title', 
-  x:-100, duration: 2, opacity: 0, delay: 1});
-gsap.from('.quote-desc', {
-  scrollTrigger: '.quote-desc', 
-  x:-100, duration: 2, opacity: 0, delay: 1.2});
-gsap.from('.quote-btn', {
-  scrollTrigger: '.quote-btn', 
-  x:-100, duration: 2, opacity: 0, delay: 1.4});
-//
-gsap.from('.christmas', {
-  scrollTrigger: '.christmas', 
-  x:-100, duration: 2, opacity: 0, delay: 0.9});
-  
-gsap.from('.christmas-title', {
-  scrollTrigger: '.christmas-title', 
-  x:100, duration: 2, opacity: 0, delay: 1});
-gsap.from('.christmas-desc', {
-  scrollTrigger: '.christmas-desc', 
-  x:100, duration: 2, opacity: 0, delay: 1.2});
-gsap.from('.christmas-btn', {
-  scrollTrigger: '.christmas-btn', 
-  x:100, duration: 2, opacity: 0, delay: 1.4});
-//
-gsap.from('.bill', {
-  scrollTrigger: '.bill', 
-  x:100, duration: 2, opacity: 0, delay: 0.9});
-  
-gsap.from('.bill-title', {
-  scrollTrigger: '.bill-title', 
-  x:-100, duration: 2, opacity: 0, delay: 1});
-gsap.from('.bill-desc', {
-  scrollTrigger: '.bill-desc', 
-  x:-100, duration: 2, opacity: 0, delay: 1.2});
-gsap.from('.bill-btn', {
-  scrollTrigger: '.bill-btn', 
-  x:-100, duration: 2, opacity: 0, delay: 1.4});  
-//
 gsap.from('.restaurant', {
   scrollTrigger: '.restaurant', 
   x:-100, duration: 2, opacity: 0, delay: 0.9});
@@ -251,6 +195,16 @@ gsap.from('.nutrition-desc', {
   x:-100, duration: 2, opacity: 0, delay: 1.2});
 gsap.from('.nutrition-btn', {
   scrollTrigger: '.nutrition-btn', 
+  x:-100, duration: 2, opacity: 0, delay: 1.4}); 
+//
+gsap.from('.habit-title', {
+  scrollTrigger: '.habit-title', 
+  x:-100, duration: 2, opacity: 0, delay: 1});
+gsap.from('.habit-desc', {
+  scrollTrigger: '.habit-desc', 
+  x:-100, duration: 2, opacity: 0, delay: 1.2});
+gsap.from('.habit-btn', {
+  scrollTrigger: '.habit-btn', 
   x:-100, duration: 2, opacity: 0, delay: 1.4}); 
 //
 /*Contact header*/
